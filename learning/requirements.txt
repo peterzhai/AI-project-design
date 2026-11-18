@@ -1,0 +1,5 @@
+# learning/ 教程依赖：刻意保持最小化。
+# 运行环境：Python 3.10+（在 3.14.0 上验证通过）。
+# 说明：所有章节示例默认使用离线 Mock 模式，无需任何网络与 API Key。
+# 真实 LLM 调用（USE_REAL_LLM=1）使用标准库 urllib 直连 OpenAI 兼容接口，不引入三方 SDK。
+pytest>=8.4,<9        # 测试框架（Python 3.14 需要 8.4+）
